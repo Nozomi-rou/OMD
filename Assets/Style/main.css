@@ -1,5 +1,36 @@
+@font-face {
+    font-family: 'fairinloveandwar';
+    src: url(Fonts/GeistPixel-Regular-VariableFont_ELSH.woff2) format('woff2');
+}
+
+* {
+    font-family: 'fairinloveandwar' , sans-serif;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
 html {
     background-color: #1a183d;
+}
+
+.idk {
+    background-color: transparent;
+    position: flex;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50٪);
+}
+
+.bruda {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 20px;
+    border-image-source: url('../GUI/aborderthaatsucks.png');
+    border-image-repeat: round;
+    border-image-slice: 33.333%;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    max-width: 100%;
 }
 
 .firsts {
