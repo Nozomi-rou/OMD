@@ -1,3 +1,15 @@
 html {
     background-color: #1a183d;
 }
+
+.firsts {
+    display: grid;
+    grid-template-columns: 48px 48px 48px;
+    grid-template-rows: 48px 48px;
+    gap: 24;
+}
+
+.level {
+    background-color: aliceblue;
+    border: 1px sold aqua;
+}
