@@ -19,6 +19,49 @@ html {
     top: 30px;
     left: 50%;
     transform: translateX(-50٪);
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: max-content;
+}
+
+.navigationlink {
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigationbutton {
+    display: inline-flex;
+    position: relative;
+    width: 30vw;
+    max-width: 160px;
+    background-image: url('../GUI/auithatsucks.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: transparent;
+    background-position: center 0%;
+    border: none;
+    cursor: pointer;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    align-items: center ;
+    justify-content: center;
+}
+
+.navigationtext {
+    color: white;
+    font-size: min(1rem , 2.5vw);
+    font-weight: bold;
+    text-shadow:2px 2px 0px black ;
+    z-index: 3;
+    pointer-events: none;
+    transform: translateX(6px);
 }
 
 .bruda {
