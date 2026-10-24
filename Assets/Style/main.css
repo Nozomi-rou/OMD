@@ -17,7 +17,7 @@ html {
     background-color: transparent;
     display: block;
     border: none;
-    position: absolute;
+    position: flex;
     width: auto;
     top: 30px;
     left: 50%;
