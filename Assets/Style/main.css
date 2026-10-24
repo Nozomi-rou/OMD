@@ -15,7 +15,9 @@ html {
 
 .idk {
     background-color: transparent;
-    position: flex;
+    border: none;
+    position: absolute;
+    width: auto;
     top: 30px;
     left: 50%;
     transform: translateX(-50٪);
@@ -39,6 +41,7 @@ html {
 .navigationbutton {
     display: inline-flex;
     position: relative;
+    aspect-ratio: 2 / 1;
     width: 30vw;
     max-width: 160px;
     background-image: url('../GUI/auithatsucks.png');
@@ -52,6 +55,7 @@ html {
     image-rendering: crisp-edges;
     align-items: center ;
     justify-content: center;
+    padding: none;
 }
 
 .navigationtext {
@@ -67,7 +71,8 @@ html {
 .bruda {
     border-color: transparent;
     border-style: solid;
-    border-width: 20px;
+    border-width: 40px;
+    background-clip: padding-box;
     border-image-source: url('../GUI/aborderthaatsucks.png');
     border-image-repeat: round;
     border-image-slice: 33.333%;
