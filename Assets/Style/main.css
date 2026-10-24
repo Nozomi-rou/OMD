@@ -6,7 +6,7 @@ html {
     display: grid;
     grid-template-columns: 48px 48px 48px;
     grid-template-rows: 48px 48px;
-    gap: 24;
+    gap: 24px;
 }
 
 .level {
