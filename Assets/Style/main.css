@@ -13,12 +13,13 @@ html {
 
 .idk {
     background-color: transparent;
-    display: flex;
+    display: block;
     border: none;
     width: auto;
+    position: absolute;
     top: 30px;
     left: 50%;
-    transform: translateX(-50٪);
+    transform: translateX(-50%);
     padding: 0;
 }
 
