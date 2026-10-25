@@ -2,6 +2,14 @@
     background-color: #c9d8f5;
 }
 
+[data-therefor="Yourhonor"] .level {
+    background-image: url('../GUI/Days/lightdayempty.png');
+}
+
 [data-therefor="imnotguilty"] {
     background-color: #1a183d;
+}
+
+[data-therefor="imnotguilty"] .level{
+    background-image: url('../GUI/Days/lightdayempty.png');
 }
