@@ -125,3 +125,16 @@ html {
     max-width: 100%;
 }
 
+.dragonpaw {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 30px;
+    background-clip: padding-box;
+    border-image-source: url('../GUI/aborderthtsucks.png');
+    border-image-repeat: round;
+    border-image-slice: 33.333%;
+    max-width: 100%;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
