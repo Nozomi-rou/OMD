@@ -80,9 +80,13 @@ html {
     max-width: 100%;
 }
 
+.hollie {
+    margin: 300px auto 60px auto;
+}
+
+
 .firsts {
     display: grid;
-    margin: 300px auto 60px auto;
     grid-template-columns: 96px 96px 96px;
     grid-template-rows: 96px 96px;
     gap: 24px;
