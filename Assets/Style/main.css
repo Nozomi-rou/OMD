@@ -41,8 +41,8 @@ html {
     display: inline-flex;
     position: relative;
     aspect-ratio: 2 / 1;
-    width: 40vw;
-    max-width: 240px;
+    width: 30vw;
+    max-width: 160px;
     background-image: url('../GUI/auithatsucks.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -82,6 +82,7 @@ html {
 
 .firsts {
     display: grid;
+    margin: 300px auto 60px auto;
     grid-template-columns: 96px 96px 96px;
     grid-template-rows: 96px 96px;
     gap: 24px;
@@ -103,7 +104,7 @@ html {
     width: 1000px;
     max-width: 1080px;
     padding: 10px;
-    margin: 200px auto 40px auto;
+    margin: 300px auto 40px auto;
     text-align: center;
 }
 
@@ -119,3 +120,4 @@ html {
     image-rendering: crisp-edges;
     max-width: 100%;
 }
+
