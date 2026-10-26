@@ -67,19 +67,6 @@ html {
     transform: translateX(6px);
 }
 
-.bruda {
-    border-color: transparent;
-    border-style: solid;
-    border-width: 30px;
-    background-clip: padding-box;
-    border-image-source: url('../GUI/aborderthtsucks.png');
-    border-image-repeat: round;
-    border-image-slice: 33.333%;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-    max-width: 100%;
-}
-
 .hollie {
     width: 1000px;
     max-width: 1080px;
@@ -116,19 +103,6 @@ html {
     text-align: center;
 }
 
-.borderv {
-    border-color: transparent;
-    border-style: solid;
-    border-width: 30px;
-    background-clip: padding-box;
-    border-image-source: url('../GUI/aborderthtsucks.png');
-    border-image-slice: 33.333%;
-    border-image-repeat: round;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
-    max-width: 100%;
-}
-
 .dragonpaw {
     border-color: transparent;
     border-style: solid;
@@ -148,9 +122,10 @@ html {
     transform: translateX(-50%);
     transform: translateY(-50%);
     z-index: 1000;
-    height: 1000px;
-    width: 500px;
-    background-color: #000;
+    height: 800px;
+    width: 400px;
+    max-width: 500px;
+    background-color: #0f0826;
     padding: 10px;
     text-align: center;
 }
