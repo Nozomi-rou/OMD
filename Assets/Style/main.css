@@ -105,7 +105,7 @@ html {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
     cursor: pointer;
-
+    text-align: center;
 }
 
 .maincenter {
