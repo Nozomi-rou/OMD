@@ -6,10 +6,26 @@
     background-image: url('../GUI/Days/lightdayempty.png');
 }
 
+[data-therefor="Yourhonor"] .eclipse {
+    background-color: #91c7f2;
+}
+
+[data-therefor="Yourhonor"] .byebye {
+    background-color: #1a183d;
+}
+
 [data-therefor="imnotguilty"] {
     background-color: #1a183d;
 }
 
 [data-therefor="imnotguilty"] .level{
     background-image: url('../GUI/Days/lightdayempty.png');
+}
+
+[data-therefor="imnotguilty"] .eclipse {
+    background-color: #0f0826;
+}
+
+[data-therefor="imnotguilty"] .byebye {
+    background-color: #91c7f2;
 }
